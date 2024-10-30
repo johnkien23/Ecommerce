@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.custom-slider button.slick-next {
+    right: 80px;
+    z-index: 10;
+}
+  
+.custom-slider button.slick-prev {
+    left: 20px;
+    z-index: 10;
+}
+.custom-slider button.slick-next::before {
+    color: gray;
+    content: "\276F";
+    background-color: #ffd3d3;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.custom-slider button.slick-prev::before {
+    color: gray;
+    content: "\276E";
+    background-color: #ffd3d3;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-slider button.slick-next {
+    right: 80px;
+    z-index: 10;
+    top: 55px
+}
+  
+.image-slider button.slick-prev {
+    left: 20px;
+    z-index: 10;
+    top: 55px
+}
+.image-slider button.slick-next::before {
+    color: gray;
+    content: "\276F";
+    background-color: #1c20ff;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image-slider button.slick-prev::before {
+    color: gray;
+    content: "\276E";
+    background-color: #1c20ff;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+input{
+    /* appearance: none; */
+}
+
+/* .my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    background-clip: padding-box;
+} */
+
+.my-masonry-grid_column > div {
+    margin-bottom: 20px;
+  }
+
+.w500 {
+    width: 500px;
+}
+
+code{
+    white-space: initial;
+}
+.my-auto{
+    margin: auto 0;
+}
+
+section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.question h3{
+    font-size: 1.8rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer{
+    /* overflow: visible; */
+    max-height: 300px;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform 0.5s ease-in;
+}
+.img-detail{
+    width: 40% !important;
+    object-fit: contain !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

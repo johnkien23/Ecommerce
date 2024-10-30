@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "665877ce1c5ad26e81a788ba"
+  },
+  "firstname": "Trungg",
+  "lastname": "Kien",
+  "email": "kien17adv@gmail.com",
+  "mobile": "1234567891",
+  "password": "$2b$10$SYXB/Le4unRRZJkbWyFd/ONaU2ey1u5XTQbBQ6me7Uc63aYYrqShG",
+  "role": "9999",
+  "wishlist": [
+    {
+      "$oid": "665831f9baba0fc859500ac7"
+    },
+    {
+      "$oid": "666d735d83524b0558ae3926"
+    },
+    {
+      "$oid": "666d735d83524b0558ae3a05"
+    }
+  ],
+  "isBlocked": false,
+  "cart": [
+    {
+      "product": {
+        "$oid": "666d735d83524b0558ae392a"
+      },
+      "quantity": 1,
+      "color": "white",
+      "price": 1320000,
+      "thumbnail": "https://salt.tikicdn.com/cache/280x280/ts/product/de/aa/7c/3a7e3d09cc696cf0ec43aeb6ad71d87a.png",
+      "_id": {
+        "$oid": "6699cdaaff4b722e0dab17dc"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-05-30T12:57:50.412Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-19T02:21:30.058Z"
+  },
+  "__v": 0,
+  "address": "hcm",
+  "passwordChangeAt": "1717408400323",
+  "passwordResetExpires": "1717825637701",
+  "passwordResetToken": "723693ec0e35d0b09d532c6daa2a639f2fc48ce651035669a48625cb119f7f33"
+},
+{
+  "_id": {
+    "$oid": "6697d4548cddd0dfaa7b96c5"
+  },
+  "firstname": "Kien",
+  "lastname": "Trung",
+  "email": "kienbui2309@gmail.com",
+  "mobile": "4567894565",
+  "password": "$2b$10$iIulFLqR/wmXi0oBED5prOEX11MjtfECT6Fo5vvFxHz.e/wuCpVPq",
+  "role": "1111",
+  "wishlist": [],
+  "isBlocked": false,
+  "cart": [],
+  "createdAt": {
+    "$date": "2024-07-17T14:25:24.835Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-17T14:28:57.462Z"
+  },
+  "__v": 0,
+  "passwordChangeAt": "1721226383924",
+  "address": "hcm"
+}]
